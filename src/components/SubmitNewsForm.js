@@ -1,7 +1,7 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useState } from 'react';
 const MAIL_TO = 'av.cozacenco@gmail.com';
-const MAIL_SUBJECT = '??????? ??? ?????, ? ? ??????!?';
+const MAIL_SUBJECT = 'Новость для «Мама, я в Польше!»';
 const SubmitNewsForm = ({ form }) => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');

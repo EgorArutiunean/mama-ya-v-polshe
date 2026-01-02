@@ -57,7 +57,7 @@ const Header = ({
             aria-label={themeToggleLabel}
             title={themeToggleLabel}
           >
-            {theme === 'dark' ? '?' : '?'}
+            {theme === 'dark' ? '☾' : '☀'}
           </button>
           <a
             href="#social"

@@ -2,7 +2,7 @@ import { FormEvent, useState } from 'react';
 import type { Translation } from '../translations';
 
 const MAIL_TO = 'av.cozacenco@gmail.com';
-const MAIL_SUBJECT = '??????? ??? ?????, ? ? ??????!?';
+const MAIL_SUBJECT = 'Новость для «Мама, я в Польше!»';
 
 interface SubmitNewsFormProps {
   form: Translation['form'];

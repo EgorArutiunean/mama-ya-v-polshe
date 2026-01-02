@@ -23,7 +23,7 @@ const Hero = ({ hero }: HeroProps) => {
           >
             <span>{hero.ctaLabel}</span>
             <span aria-hidden="true" className="text-lg">
-              ?
+              →
             </span>
           </a>
         </div>
