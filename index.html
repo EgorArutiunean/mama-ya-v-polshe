@@ -4,16 +4,22 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="%BASE_URL%favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Мама, я в Польше! — короткие новости без шума</title>
     <meta
       name="description"
       content="Короткие новости о Польше — без шума и паники. Факты, быт и полезные мелочи."
     />
+
     <link rel="canonical" href="https://example.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Мама, я в Польше!" />
-    <meta property="og:description" content="Короткие новости о Польше — без шума и паники." />
+    <meta
+      property="og:description"
+      content="Короткие новости о Польше — без шума и паники."
+    />
     <meta property="og:image" content="%BASE_URL%og.png" />
+
     <script>
       const GA4_ID = 'G-XXXXXXXXXX'; // Replace with your GA4 ID before production
       if (GA4_ID !== 'G-XXXXXXXXXX') {
@@ -23,14 +29,18 @@
         document.head.appendChild(gtagScript);
 
         window.dataLayer = window.dataLayer || [];
-        function gtag(){window.dataLayer.push(arguments);}
+        function gtag() {
+          window.dataLayer.push(arguments);
+        }
         gtag('js', new Date());
         gtag('config', GA4_ID);
       }
     </script>
   </head>
+
   <body class="antialiased">
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- Vite entry (do not change to /src/... with a leading slash) -->
+    <script type="module" src="src/main.tsx"></script>
   </body>
 </html>
